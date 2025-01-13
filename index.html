@@ -5,41 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon CV</title>
 
+    <link rel="stylesheet" href="./Assets/CSS/base-style.css">
     <link rel="stylesheet" href="./Assets/CSS/style.css">
 </head>
 
 
 <body>
     <header>
+
         <div id="header__img">
-            <img src="./Assets/images/Photo-de-profil.jpg" alt="Ma photo de profil">
+            <img src="./Assets/images/Photo-de-profil.jpg" alt="Ma photo de profil" id="PDP">
         </div>
-        <div id="header__informations">*
-            <p>Ilyan Fenoy</p>
-            <p>Développeur Web et Web Mobile</p>
+
+        <div id="header__informations">
+
+            <div id="Principal__infos">
+                <p id="__name">Ilyan Fenoy</p>
+            <p id="__job">Développeur Web et Web Mobile</p>
+            </div>
+
+            <address id="header__adress">
+                <div class="__icon">
+                    <img src="./Assets/images/icons/enveloppe.png" alt="Adresse mail" class="icon icon__mail">
+                    <p id="adress__p">fenoyilyan@gmail.com</p>
+                </div>
+    
+                <div class="__icon">
+                    <img src="./Assets/images/icons/maison.png" alt="Adresse" class="icon icon__address">
+                    <p  id="adress__p">12 Cr d'Herbouville, 69004 Lyon</p>
+                </div>
+    
+                <div class="__icon">
+                    <img src="./Assets/images/icons/appel-telephonique.png" alt="Numéro de télephone" class="icon icon__phone">
+                    <p  id="adress__p">06-06-06-06-06</p>
+                </div>
+    
+                <div class="__icon">
+                    <img src="./Assets/images/icons/auto.png" alt="Permis de conduire" class="icon icon__drive">
+                    <p  id="adress__p">Permis B</p>
+                </div>
+                
+            </address>
         </div>
-        <address id="header__adress">
-            <div class="__icon">
-                <img src="./Assets/images/icons/enveloppe.png" alt="Adresse mail" id="icon__mail">
-                <p>fenoyilyan@gmail.com</p>
-            </div>
 
-            <div class="__icon">
-                <img src="./Assets/images/icons/maison.png" alt="Adresse" id="icon__address">
-                <p>12 Cr d'Herbouville, 69004 Lyon</p>
-            </div>
 
-            <div class="__icon">
-                <img src="./Assets/images/icons/appel-telephonique.png" alt="Numéro de télephone" id="icon__phone">
-                <p>06-06-06-06-06</p>
-            </div>
-
-            <div class="__icon">
-                <img src="./Assets/images/icons/auto.png" alt="Permis de conduire" id="icon__drive">
-                <p>Permis B</p>
-            </div>
-            
-        </address>
     </header>
 </body>
 
