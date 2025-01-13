@@ -25,6 +25,15 @@ img#PDP{
     position: absolute;
 }
 
+img#PDP:active{
+    all: initial;
+    position: initial;
+    background-color: black;
+    cursor: zoom-in;
+    width: 100%;
+    height:100%;
+}
+
 div#header__informations{
     width: 30%;
 }
@@ -60,16 +69,24 @@ address#header__adress{
 }
 
 div.__icon{
+
+    display: flex;
     width: 50%;
-    margin-bottom: 5%;
+    align-content: center;
 }
 
 img.icon{
     display: inline-block;
+    align-self: center;
     width: 15px;
     height: 15px;
     margin-right:3px ;
 
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 p#adress__p{
