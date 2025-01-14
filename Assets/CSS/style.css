@@ -141,6 +141,7 @@ div.FIPE__block{
     align-items: center;
     padding: 1% 0;
     margin-bottom: 1%;
+
 }
 
 p.FIPE__name{
@@ -155,4 +156,8 @@ p.FIPE__location{
 .FIPE__date{
     color: #17abb3;
     font-weight: bolder;
+}
+
+article{
+    margin-bottom: 4%;
 }
