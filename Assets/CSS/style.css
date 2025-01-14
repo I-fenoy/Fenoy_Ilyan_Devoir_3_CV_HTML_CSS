@@ -99,7 +99,7 @@ p#adress__p{
 /* main flexbox CSS settings */
 
 main#main__container{
-    height: 1500px;
+    height: 1100px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -108,14 +108,13 @@ main#main__container{
 aside#main__block{
     padding: 5% 3% 0 3% ;
     width: 30%;
-    height: 100%;
+
     background-color: #e3e3e3;
 }
 
 section#main__block{
     padding: 5% 3% 0 3% ;
     width: 70%;
-    height: 100%;
     background-color: white;
 }
 
@@ -161,4 +160,35 @@ p.FIPE__location{
 
 article{
     margin-bottom: 4%;
+}
+
+/* footer CSS Settings */
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #17abb3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#social{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#update>p{
+    font-style: italic;
+    color: white;
+    font-weight: 300;
+    font-size: smaller;
+    margin: 5% 0 0 0;
+
+}
+
+img.__social:hover{
+    opacity: 0.5;
 }
