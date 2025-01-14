@@ -1,4 +1,8 @@
+
+
 /* header CSS */
+
+
 header{
     width: 100%;
     height: 250px;
@@ -96,7 +100,9 @@ p#adress__p{
     align-self: center;
 }
 
+
 /* main flexbox CSS settings */
+
 
 main#main__container{
     height: 1100px;
@@ -118,9 +124,11 @@ section#main__block{
     background-color: white;
 }
 
+
 /* Section CSS settings */
 
     /* Profil css settings  */
+
 
 hr{
     opacity: 0.3;
@@ -132,7 +140,9 @@ p#profil__text{
     text-indent: 3%;
 }
 
+
     /* Formation, Internship and Profesional Experiences CSS Settings */
+
 
 div.FIPE__block{
     display: flex;
@@ -141,8 +151,14 @@ div.FIPE__block{
     align-items: center;
     padding: 1% 0;
     margin-bottom: 1%;
-
 }
+
+div.FIPE__block:hover{
+    padding-left: 5px;
+    background-color: #e3e3e3;
+    border-left: 5px solid #17abb3;
+}
+
 
 p.FIPE__name{
     margin: 0%;
@@ -162,7 +178,9 @@ article{
     margin-bottom: 4%;
 }
 
+
 /* footer CSS Settings */
+
 
 footer{
     height: 100px;
