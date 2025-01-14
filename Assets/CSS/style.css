@@ -98,19 +98,61 @@ p#adress__p{
 /* main flexbox CSS settings */
 
 main#main__container{
+    height: 1500px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
 aside#main__block{
-    width: 25%;
+    padding: 5% 3% 0 3% ;
+    width: 30%;
     height: 100%;
     background-color: #e3e3e3;
 }
 
 section#main__block{
-    width: 75%;
+    padding: 5% 3% 0 3% ;
+    width: 70%;
     height: 100%;
     background-color: white;
+}
+
+/* Section CSS settings */
+
+    /* Profil css settings  */
+
+hr{
+    opacity: 0.3;
+    margin-bottom: 2%;
+}
+
+p#profil__text{
+    text-align: justify;
+    text-indent: 3%;
+}
+
+    /* Formation, Internship and Profesional Experiences CSS Settings */
+
+div.FIPE__block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0;
+    margin-bottom: 1%;
+}
+
+p.FIPE__name{
+    margin: 0%;
+    font-size: larger;
+    font-weight: bolder;
+}
+p.FIPE__location{
+    margin: 0%;
+    font-style: italic;
+}
+.FIPE__date{
+    color: #17abb3;
+    font-weight: bolder;
 }
