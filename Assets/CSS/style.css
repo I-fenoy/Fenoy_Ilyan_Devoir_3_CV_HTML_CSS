@@ -42,6 +42,7 @@ div#header__informations{
 }
 
 p#__name{
+    margin-top: 10%;
     font-size: 2.9em;
     text-align: center;
     line-height:0;
@@ -55,12 +56,9 @@ p#__job{
     line-height: 1%;
 }
 
-#header__adress{
-    width: 50 ;
-
-}
 address#header__adress{
-    height: 50%;
+    margin-top: 5%;
+    height: 30%;
     width: 50%;
     display: flex;
     flex-direction: row;
