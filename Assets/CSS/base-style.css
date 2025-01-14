@@ -15,4 +15,8 @@ body{
 h1{
     font-family: Raleway, sans-serif;
     color: #17abb3;
+    font-size: x-large;
+    font-weight: 600;
+    margin: 1% 0 1% 0;
 }
+
