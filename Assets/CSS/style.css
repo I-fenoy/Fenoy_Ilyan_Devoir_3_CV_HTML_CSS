@@ -45,7 +45,7 @@ div#header__informations{
     width: 50%;
 }
 
-p#__name{
+h1{
     margin-top: 10%;
     font-size: 2.9em;
     text-align: center;
@@ -53,7 +53,7 @@ p#__name{
     font-weight: bolder;
 }
 
-h1#__job{
+h2{
     text-align: center;
     font-size: larger;
     font-weight: bolder;
@@ -111,14 +111,14 @@ main#main__container{
 }
 
 aside.main__block{
-    padding: 5% 5% 0 5% ;
+    padding: 60px 5% 0 5% ;
     width: 30%;
 
     background-color: #e3e3e3;
 }
 
 section.main__block{
-    padding: 5% 3% 5% 3% ;
+    padding: 60px 3% 5% 60px ;
     width: 70%;
     background-color: white;
 }
@@ -132,12 +132,6 @@ p{
 
     /* Profil css settings  */
 
-
-hr{
-    opacity: 0.3;
-    margin-bottom: 2%;
-}
-
 p#profil__text{
     text-align: justify;
     text-indent: 3%;
@@ -146,6 +140,7 @@ p#profil__text{
 
     /* Formation, Internship and Profesional Experiences CSS Settings */
 
+    
 
 div.FIPE__block{
     display: flex;
@@ -185,12 +180,6 @@ article{
 
 /* aside CSS Settings */
 
-hr.aside__hr{
-margin-top: 4%;
-margin-bottom: 6%;
-
-}
-
 div.aside__block{
     display: flex;
     flex-direction:row ;
@@ -203,6 +192,10 @@ div.aside__block_subject{
     margin: 0%;
     font-size: larger;
     font-weight: bolder;
+}
+
+aside h2{
+    size: 2em;
 }
 
 img.__star{
