@@ -105,23 +105,26 @@ p#adress__p{
 
 
 main#main__container{
-    height: 1100px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
 aside#main__block{
-    padding: 5% 3% 0 3% ;
+    padding: 5% 5% 0 5% ;
     width: 30%;
 
     background-color: #e3e3e3;
 }
 
 section#main__block{
-    padding: 5% 3% 0 3% ;
+    padding: 5% 3% 5% 3% ;
     width: 70%;
     background-color: white;
+}
+
+p{
+    font-size: larger;
 }
 
 
@@ -159,16 +162,17 @@ div.FIPE__block:hover{
     border-left: 5px solid #17abb3;
 }
 
-
 p.FIPE__name{
     margin: 0%;
     font-size: larger;
     font-weight: bolder;
 }
+
 p.FIPE__location{
     margin: 0%;
     font-style: italic;
 }
+
 .FIPE__date{
     color: #17abb3;
     font-weight: bolder;
@@ -178,6 +182,53 @@ article{
     margin-bottom: 4%;
 }
 
+
+/* aside CSS Settings */
+
+hr.aside__hr{
+margin-top: 4%;
+margin-bottom: 6%;
+
+}
+
+div.aside__block{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+div.aside__block_subject{
+    margin: 0%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+img.__star{
+    margin-left: 5px;
+}
+
+div.last__block{
+    margin-bottom: 15%;
+}
+
+ul{
+    padding: initial;
+}
+
+
+ul li{
+    list-style-type: square;
+    list-style-position: inside;
+    font-size: larger;
+}
+
+
+li::marker{
+    color:#17abb3;
+    font-size: 1.4em;
+}
 
 /* footer CSS Settings */
 
