@@ -53,7 +53,7 @@ p#__name{
     font-weight: bolder;
 }
 
-p#__job{
+h1#__job{
     text-align: center;
     font-size: larger;
     font-weight: bolder;
@@ -94,7 +94,7 @@ a{
     color: white;
 }
 
-p#adress__p{
+p.adress__p{
     display: inline;
     font-size: x-small;
     align-self: center;
@@ -110,14 +110,14 @@ main#main__container{
     flex-direction: row;
 }
 
-aside#main__block{
+aside.main__block{
     padding: 5% 5% 0 5% ;
     width: 30%;
 
     background-color: #e3e3e3;
 }
 
-section#main__block{
+section.main__block{
     padding: 5% 3% 5% 3% ;
     width: 70%;
     background-color: white;
