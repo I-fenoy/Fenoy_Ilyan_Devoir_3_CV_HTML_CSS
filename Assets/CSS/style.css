@@ -46,6 +46,7 @@ div#header__informations{
 }
 
 h1{
+    font-family: Lato, sans-serif;
     margin-top: 10%;
     font-size: 2.9em;
     text-align: center;
@@ -54,13 +55,14 @@ h1{
 }
 
 h2{
+    font-family: Lato, sans-serif;
     text-align: center;
     font-size: larger;
     font-weight: bolder;
     line-height: 1%;
 }
 
-address#header__adress{
+div.header__informations{
     margin-top: 5%;
     height: 30%;
     width: 50%;
@@ -73,7 +75,10 @@ address#header__adress{
     justify-content: space-evenly;
 }
 
-div.__icon{
+    
+
+
+div.header__informations_item{
 
     display: flex;
     width: 50%;
@@ -81,7 +86,6 @@ div.__icon{
 }
 
 img.icon{
-    display: inline-block;
     align-self: center;
     width: 15px;
     height: 15px;
@@ -104,21 +108,23 @@ p.adress__p{
 /* main flexbox CSS settings */
 
 
-main#main__container{
+main{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-aside.main__block{
-    padding: 60px 5% 0 5% ;
+div.block1{
+    box-sizing: content-box;
+    padding: 40px 5% 2% 5%;
     width: 30%;
 
     background-color: #e3e3e3;
 }
 
-section.main__block{
-    padding: 60px 3% 5% 60px ;
+div.block2{
+    box-sizing: content-box;
+    padding: 40px 5% 2% 5% ;
     width: 70%;
     background-color: white;
 }
@@ -142,7 +148,7 @@ p#profil__text{
 
     
 
-div.FIPE__block{
+div.block2__section_fipe{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -151,7 +157,7 @@ div.FIPE__block{
     margin-bottom: 1%;
 }
 
-div.FIPE__block:hover{
+div.block2__section_fipe:hover{
     padding-left: 5px;
     background-color: #e3e3e3;
     border-left: 5px solid #17abb3;
@@ -173,37 +179,35 @@ p.FIPE__location{
     font-weight: bolder;
 }
 
-article{
+section.block2__section{
     margin-bottom: 4%;
 }
 
 
 /* aside CSS Settings */
 
-div.aside__block{
+section.block1__section{
+    box-sizing: content-box ;
+    margin-bottom: 10%;
+}
+
+div.block1__section_item{
     display: flex;
     flex-direction:row ;
     justify-content: space-between;
     align-items: center;
+    box-sizing: content-box;
     height: 30px;
 }
 
-div.aside__block_subject{
+div.block1__section_item_subject{
     margin: 0%;
     font-size: larger;
     font-weight: bolder;
 }
 
-aside h2{
-    size: 2em;
-}
-
 img.__star{
     margin-left: 5px;
-}
-
-div.last__block{
-    margin-bottom: 15%;
 }
 
 ul{
